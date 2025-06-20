@@ -1,6 +1,6 @@
 # 🍕🔥 The Great Domino's Pepper Soup Incident
 
-### 📅 Last Tuesday at Domino's, Lekki...
+### 📅 Last Tuesday at Domino's
 
 My guy **Chidi** and I pulled up for the legendary **"Two-for-Tuesday"** pizza deal.
 
@@ -15,7 +15,6 @@ My guy **Chidi** and I pulled up for the legendary **"Two-for-Tuesday"** pizza d
 | 🧃 Chapman Drink (33 cl can)     | ₦565       |
 | **Total Bill**                   | **₦22,265** |
 
-> *(starting from ₦3,000 – compared prices across Instagram, Facebook, Glovo, Chowdeck, etc.)*
 
 ---
 
