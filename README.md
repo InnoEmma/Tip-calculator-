@@ -1,70 +1,138 @@
-# Getting Started with Create React App
+🍕🔥 The Great Domino's Pepper Soup Incident
+📅 Last Tuesday at Domino's, Lekki...
+My guy Chidi and I pulled up for the legendary "Two‑for‑Tuesday" pizza deal. Here's what we ordered:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🍕 2 Large Pepperoni Pizzas (~₦9,350 each) – ₦18,700
 
-## Available Scripts
+🍗 Extra Suya Chicken Wings – ₦3,000 (starting from₦3 000) 
+instagram.com
++1
+facebook.com
++1
+drinkallotters.com.ng
++2
+glovoapp.com
++2
+chowdeck.com
++2
+facebook.com
++2
+instagram.com
++2
+facebook.com
++2
 
-In the project directory, you can run:
+🧃 Chapman Drink (33 cl can) – ₦565 
+gomed.ng
++8
+supermart.ng
++8
+instagram.com
++8
 
-### `npm start`
+🧾 Total bill: ₦22,265
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Service was 💯 — the waiter even brought free pepper soup!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Chidi got emotional (said it tasted like his grandma's 😭), so he tapped 20% tip.
+Me? I remembered last week's NEPA bill and tapped 10%.
 
-### `npm test`
+📱 The app averaged it out: 15% tip = ₦3,340
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+But then...
 
-### `npm run build`
+🧨 Chaos Begins
+When Chidi saw:
+👉 TOTAL: ₦25,605
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+He jumped up yelling:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+“₦25k?! Omo! This waiter wan buy iPhone 15!” 📱💥
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+What happened next:
+🏃‍♂️ The manager ran in thinking we were fighting
 
-### `npm run eject`
+🤯 Chidi mistook TOTAL for just the TIP
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+😱 He spilled pepper soup on his white agbada
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🤬 Started arguing in pidgin: “Why you dey do like Lagos politician?”
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🤝 Resolution
+✅ We showed the app breakdown (manager was impressed)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🧘 The waiter picked extra ₦500 for “emotional stress”
 
-## Learn More
+🍩 We got free puff‑puff for customer education
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🧠 Moral of the Story
+Never let your Benin friend calculate tips during a pepper soup emotional moment 😅.
+Thank God for the app — it saved us from turning Domino’s into WWE Smackdown! 🥴
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+👨‍💻 BillSplitter React App
+Building on that incident, BillSplitter is my simple React tip calculator:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+✨ Features
+Enter a bill amount
 
-### Analyzing the Bundle Size
+Select how much you and a friend liked the service (e.g., 10%, 20%)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+See the tip amount & total payment
 
-### Making a Progressive Web App
+Modern, clean UI mirroring the provided mockup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📁 Project Structure
+bash
+Copy
+Edit
+BillSplitter/
+├── App.js            # Main React component
+├── styles.css        # All UI styles
+├── index.js          # Entry point (standard React setup)
+└── README.md         # You’re reading it 😄
+🚀 How to Run It
+Clone this repo or copy files into your React project
 
-### Advanced Configuration
+Make sure you’ve created styles.css
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+js
+Copy
+Edit
+import "./styles.css";
+Start your app:
 
-### Deployment
+sql
+Copy
+Edit
+npm start
+# or
+yarn start
+💡 Key Features
+Real‑time tip calculation based on selected percentages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Clean, responsive UI
 
-### `npm run build` fails to minify
+Reset button to clear inputs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🎨 Style Guide (vanilla CSS)
+Class Name	Purpose
+tip-card	Main white card container
+form-group	Wrapper for inputs/selects
+results	Calculation output box
+btn-calc	Main “Calculate” button
+btn-reset	Clears the form
+line-item	Label/value rows in results
+amount	Highlights money values
+
+
+🛠 Future Improvements
+Add smooth animations/transitions
+
+Support splitting between more people
+
+Save calculation history
+
+📄 License
+This is a learning/demo project—feel free to use or adapt!
+
