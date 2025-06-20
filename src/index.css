@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,147 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+body {
+  background: #f7f9fc;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 2rem;
+  color: #151515;
+}
+
+/* Card Container */
+.tip-card {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.tip-card h1 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Form Groups */
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-group label {
+  display: block;
+  /* font-size: 0.9rem; */
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input{
+  width: 375px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background: #f8fafc;
+  outline: none;
+  appearance: none;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background: #f8fafc;
+  outline: none;
+  appearance: none;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #3b82f6;
+}
+
+/* Results Box */
+.results {
+  background: #eff6ff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.results .line-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.results .line-item:last-child {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.results .line-item .label {
+  color: #333;
+}
+
+.results .line-item .amount {
+  color: #1e40af;
+}
+
+/* Buttons */
+.btn-calc {
+  width: 100%;
+  padding: 0.85rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #2563eb;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-calc:hover {
+  background: #1e40af;
+}
+
+.reset{
+  background-color: #1e40af;
+  height: 100%;
+  border-radius: 5px;
+
+}
+
+.btn-reset {
+  display: block;
+  /* margin: 0.5rem auto 0; */
+  margin: 1.5rem auto;
+  background: none;
+  border: none;
+  height: 40px;
+  /* color: #6b7280; */
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+  width: fit-content;
+}
+
+.btn-reset:hover {
+  color: #374151;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+span{
+  font-size: 1.2rem;
 }
