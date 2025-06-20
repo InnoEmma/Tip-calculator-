@@ -1,138 +1,118 @@
-🍕🔥 The Great Domino's Pepper Soup Incident
-📅 Last Tuesday at Domino's, Lekki...
-My guy Chidi and I pulled up for the legendary "Two‑for‑Tuesday" pizza deal. Here's what we ordered:
+# 🍕🔥 The Great Domino's Pepper Soup Incident
 
-🍕 2 Large Pepperoni Pizzas (~₦9,350 each) – ₦18,700
+### 📅 Last Tuesday at Domino's, Lekki...
 
-🍗 Extra Suya Chicken Wings – ₦3,000 (starting from₦3 000) 
-instagram.com
-+1
-facebook.com
-+1
-drinkallotters.com.ng
-+2
-glovoapp.com
-+2
-chowdeck.com
-+2
-facebook.com
-+2
-instagram.com
-+2
-facebook.com
-+2
+My guy **Chidi** and I pulled up for the legendary **"Two-for-Tuesday"** pizza deal.
 
-🧃 Chapman Drink (33 cl can) – ₦565 
-gomed.ng
-+8
-supermart.ng
-+8
-instagram.com
-+8
+---
 
-🧾 Total bill: ₦22,265
+## 🧾 What We Ordered
 
-Service was 💯 — the waiter even brought free pepper soup!
+| Item                             | Price      |
+|----------------------------------|------------|
+| 🍕 2 Large Pepperoni Pizzas      | ₦18,700    |
+| 🍗 Extra Suya Chicken Wings      | ₦3,000     |
+| 🧃 Chapman Drink (33 cl can)     | ₦565       |
+| **Total Bill**                   | **₦22,265** |
 
-Chidi got emotional (said it tasted like his grandma's 😭), so he tapped 20% tip.
-Me? I remembered last week's NEPA bill and tapped 10%.
+> *(starting from ₦3,000 – compared prices across Instagram, Facebook, Glovo, Chowdeck, etc.)*
 
-📱 The app averaged it out: 15% tip = ₦3,340
+---
 
-But then...
+## 🧑‍🍳 Service & Tip Drama
 
-🧨 Chaos Begins
-When Chidi saw:
-👉 TOTAL: ₦25,605
+The service was 💯 — the waiter even brought **free pepper soup**!
 
-He jumped up yelling:
+- Chidi got emotional (said it tasted like his grandma's 😭), so he tipped **20%**.
+- I remembered my **NEPA bill**, so I tipped **10%**.
 
-“₦25k?! Omo! This waiter wan buy iPhone 15!” 📱💥
+**App average tip: 15% = ₦3,340**
 
-What happened next:
-🏃‍♂️ The manager ran in thinking we were fighting
+---
 
-🤯 Chidi mistook TOTAL for just the TIP
+## 🧨 Chaos Begins
 
-😱 He spilled pepper soup on his white agbada
+Chidi saw this on the app:
 
-🤬 Started arguing in pidgin: “Why you dey do like Lagos politician?”
+> 👉 **TOTAL: ₦25,605**
 
-🤝 Resolution
-✅ We showed the app breakdown (manager was impressed)
+And yelled:
 
-🧘 The waiter picked extra ₦500 for “emotional stress”
+> **“₦25k?! Omo! This waiter wan buy iPhone 15!”** 📱💥
 
-🍩 We got free puff‑puff for customer education
+---
 
-🧠 Moral of the Story
-Never let your Benin friend calculate tips during a pepper soup emotional moment 😅.
-Thank God for the app — it saved us from turning Domino’s into WWE Smackdown! 🥴
+## 🥴 What Happened Next
 
+- 🏃‍♂️ Manager ran in thinking we were fighting  
+- 🤯 Chidi thought TOTAL was just the TIP  
+- 😱 Pepper soup spilled on white agbada  
+- 🤬 Arguing in pidgin: “Why you dey do like Lagos politician?”
 
-👨‍💻 BillSplitter React App
-Building on that incident, BillSplitter is my simple React tip calculator:
+---
 
-✨ Features
-Enter a bill amount
+## 🤝 Resolution
 
-Select how much you and a friend liked the service (e.g., 10%, 20%)
+- ✅ Showed the app breakdown (manager was impressed)  
+- 🧘 Waiter got extra **₦500** for *“emotional stress”*  
+- 🍩 Got free **puff‑puff** for customer education
 
-See the tip amount & total payment
+---
 
-Modern, clean UI mirroring the provided mockup
+## 🧠 Moral of the Story
 
-📁 Project Structure
-bash
-Copy
-Edit
+> **Never let your Benin friend calculate tips during a pepper soup emotional moment.** 😅  
+> Thank God for the app — it saved us from turning Domino’s into WWE Smackdown! 🥴
+
+---
+
+# 👨‍💻 BillSplitter React App
+
+A simple tip calculator inspired by the chaos above.
+
+---
+
+## ✨ Features
+
+- ✅ Enter a bill amount  
+- ✅ Select how much *you and a friend* liked the service (e.g., 10%, 20%)  
+- ✅ See the calculated **tip** & **total payment**  
+- ✅ Modern, clean UI (based on design mockup)
+
+---
+
+## 📁 Project Structure
+
+```bash
 BillSplitter/
-├── App.js            # Main React component
-├── styles.css        # All UI styles
-├── index.js          # Entry point (standard React setup)
-└── README.md         # You’re reading it 😄
-🚀 How to Run It
-Clone this repo or copy files into your React project
+├── App.js         # Main React component
+├── styles.css     # All UI styles
+├── index.js       # Entry point (standard React setup)
+└── README.md      # You’re reading it 😄
 
-Make sure you’ve created styles.css
+| Feature                   | Description                       |
+| ------------------------- | --------------------------------- |
+| Real-time tip calculation | Updates as you adjust preferences |
+| Responsive UI             | Works well on all screen sizes    |
+| Reset button              | Clears inputs to start fresh      |
 
-js
-Copy
-Edit
-import "./styles.css";
-Start your app:
 
-sql
-Copy
-Edit
-npm start
-# or
-yarn start
-💡 Key Features
-Real‑time tip calculation based on selected percentages
-
-Clean, responsive UI
-
-Reset button to clear inputs
-
-🎨 Style Guide (vanilla CSS)
-Class Name	Purpose
-tip-card	Main white card container
-form-group	Wrapper for inputs/selects
-results	Calculation output box
-btn-calc	Main “Calculate” button
-btn-reset	Clears the form
-line-item	Label/value rows in results
-amount	Highlights money values
-
+| Class Name    | Purpose                        |
+| ------------- | ------------------------------ |
+| `.tip-card`   | Main white card container      |
+| `.form-group` | Wrapper for inputs and selects |
+| `.results`    | Calculation output box         |
+| `.btn-calc`   | Main "Calculate" button        |
+| `.btn-reset`  | Button to clear form inputs    |
+| `.line-item`  | Label/value row formatting     |
+| `.amount`     | Highlights money values        |
 
 🛠 Future Improvements
 Add smooth animations/transitions
 
-Support splitting between more people
+Support splitting between more than 2 people
 
-Save calculation history
+Save calculation history for reference
 
 📄 License
-This is a learning/demo project—feel free to use or adapt!
-
+This is a learning/demo project — feel free to use, remix, or improve it!
